@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.main-header {
+    text-align: center;
+    margin-top: 20px; /* Menurunkan header */
+}
+
+.header-color {
+    color: #333;
+}
+
+.text-color {
+    color: #666;
+}
+
+.pilih-bangun-datar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Menurunkan konten utama */
+}
+
+aside {
+    width: 45%;
+}
+
+.gambar-segitiga, .gambar-jajargenjang {
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar-segitiga img, .gambar-jajargenjang img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+.button-hitung, .button-reset {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-hitung {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.button-reset {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button-hitung:hover {
+    background-color: #218838;
+}
+
+.button-reset:hover {
+    background-color: #c82333;
+}
